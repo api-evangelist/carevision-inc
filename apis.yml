@@ -1,7 +1,27 @@
 aid: carevision-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carevision-inc.png
 name: Carevision Inc.
-description: Carevision Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Carevision Inc. is an AI-powered digital health company whose platform turns any camera into a
+  60-second contactless cardiometabolic wellness scanner. Using remote photoplethysmography (rPPG)
+  and deep learning models trained on 12M+ patient records, it extracts 30+ physiological parameters
+  — including heart rate, blood pressure indicators, stress index, respiratory rate, and oxygen
+  saturation — and produces a comprehensive digital health persona covering 15+ cardiometabolic
+  conditions. Carevision operates under the FDA General Wellness Policy (it is not a medical device
+  or diagnostic tool) and is delivered as a kiosk, an embedded/white-label SDK for iOS and Android,
+  or a web integration to hospitals and clinics, health insurers, pharmacy chains, diagnostic
+  laboratories, wellness apps, and teleconsultation platforms, integrating with EMR/HIS systems.
 url: https://raw.githubusercontent.com/api-evangelist/carevision-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Health
+- Healthcare
+- Digital Health
+- Wellness
+- Cardiometabolic
+- Artificial Intelligence
+- Computer Vision
+- Remote Photoplethysmography
+- Screening
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://carevisionai.com
+- type: Blog
+  url: https://carevisionai.com/blog
+- type: Support
+  url: https://carevisionai.com/contact
+- type: DomainSecurity
+  url: security/carevision-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
