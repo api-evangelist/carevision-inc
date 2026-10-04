@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carevision-inc.png
-name: Carevision Inc.
+name: Carevision
 description: >-
   Carevision Inc. is an AI-powered digital health company whose platform turns any camera into a
   60-second contactless cardiometabolic wellness scanner. Using remote photoplethysmography (rPPG)
@@ -51,7 +51,7 @@ tags:
 - Wellness
 - Cardiometabolic
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Remote Photoplethysmography
 - Screening
 - SDK
@@ -67,6 +67,7 @@ tags_raw:
 - Remote Photoplethysmography
 - Screening
 - SDK
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -87,3 +88,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Carevision Inc.
